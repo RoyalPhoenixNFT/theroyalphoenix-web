@@ -217,7 +217,7 @@ input{
   .nav__menu{
     position: fixed;
     width: 100%;
-    background: var(--container-color);
+    background: var(--body-color);
     top: -150%;
     left: 0;
     padding: 3.5rem 0;
