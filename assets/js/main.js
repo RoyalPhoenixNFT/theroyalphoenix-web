@@ -85,7 +85,10 @@ let newSwiper = new Swiper(".new-swiper", {
              nextEl: '.swiper-button-next',
              prevEl: '.swiper-button-prev',
     },
-    keyboard: true
+    keyboard: true,
+    autoplay: {
+        delay: 1000
+    }
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
