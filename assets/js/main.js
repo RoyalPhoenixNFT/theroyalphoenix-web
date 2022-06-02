@@ -86,9 +86,7 @@ let newSwiper = new Swiper(".new-swiper", {
              prevEl: '.swiper-button-prev',
     },
     keyboard: true,
-    autoplay: {
-        delay: 1000
-    }
+    
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
