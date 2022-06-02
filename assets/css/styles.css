@@ -169,7 +169,8 @@ input{
 }
 
 .nav__logo-img{
-  width: 5rem;
+  width: 4rem;
+  margin-top: 0.4rem;
 }
 
 .nav__link,
