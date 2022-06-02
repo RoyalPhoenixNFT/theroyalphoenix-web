@@ -169,7 +169,7 @@ input{
 }
 
 .nav__logo-img{
-  width: 1.5rem;
+  width: 5rem;
 }
 
 .nav__link,
@@ -892,7 +892,7 @@ input{
   display: flex;
   align-items: center;
   column-gap: .5rem;
-  margin-bottom: var(--mb-1);
+  margin-bottom: 0.5rem;
   font-weight: var(--font-medium);
   color: hsl(49, 99%, 51%);
   font-family: 'Bungee Inline',
@@ -900,7 +900,7 @@ input{
 }
 
 .footer__logo-img{
-  width: 20px;
+  width: 100px;
 }
 
 .footer__description{
