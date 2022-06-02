@@ -87,7 +87,7 @@ let newSwiper = new Swiper(".new-swiper", {
     },
     keyboard: true,
     autoplay: {
-        delay: 5000,
+        delay: 1000,
     }
     
 });
