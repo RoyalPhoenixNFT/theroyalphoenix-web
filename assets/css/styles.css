@@ -629,6 +629,7 @@ input{
   display: inline-flex;
   padding: .5rem;
   border-radius: 1rem ;
+    background: hsla(264, 45%, 13%, 0.632);
   margin-bottom: 1rem;
 
 }
