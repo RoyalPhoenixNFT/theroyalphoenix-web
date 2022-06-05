@@ -283,6 +283,7 @@ input{
 .home__img{
   height: 250px;
   justify-self: center;
+  border-radius: 1rem;
 }
 
 .home__indicator{
@@ -671,7 +672,8 @@ input{
 .discount__img{
   width: 200px;
   justify-self: center;
-  margin: 1.2rem 0 0.5rem 0;
+  border-radius: 1rem;
+  /* margin: 1.2rem 0 0.5rem 0; */
 }
 
 /*=============== NEW ARRIVALS ===============*/
