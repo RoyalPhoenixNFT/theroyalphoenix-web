@@ -274,10 +274,19 @@ input{
   row-gap: 1rem;
 }
 
+.home__data{
+  text-align: center;
+}
+
 .home__group{
   display: grid;
   position: relative;
   padding-top: 2rem;
+  margin-top: 15%;
+}
+
+.home__project_name{
+  margin: -10%;
 }
 
 .home__img{
@@ -320,10 +329,12 @@ input{
 }
 
 .home__subtitle{
+  /* padding-top: 2rem; */
   font-size: var(--h2-font-size);
   /* text-transform: uppercase; */
   margin-bottom: var(--mb-1);
   font-family: 'Dancing Script',cursive;
+  /* margin-left: 6rem; */
 }
 
 .home__title{
@@ -339,12 +350,13 @@ input{
 .home__description{
   margin-bottom: var(--mb-1);
   font-weight: var(--font-semi-bold);
-  
+  justify-self: center;
 }
 
 .home__buttons{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -1025,7 +1037,12 @@ x
     flex-direction: column;
     width: max-content;
     row-gap: 1rem;
+    text-align: center;
   }
+  .home__subtitle{
+    margin-left: 0rem;
+  }
+  
 
   .category__container,
   .trick__container{
@@ -1109,6 +1126,7 @@ x
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
+  .home__data,
   .about__title,
   .about__data{
     text-align: initial;
